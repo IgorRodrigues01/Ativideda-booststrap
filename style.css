@@ -1,0 +1,94 @@
+
+
+body {
+    background-color: #f8f7fc;
+    color: #29243a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.logo{
+    width: 30px;
+}
+
+.banner {
+    background: linear-gradient(135deg, #5b21b6, #9333ea);
+    color: white;
+    padding: 90px 20px;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+
+h2 {
+    font-weight: bold;
+}
+
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #00000015;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.preco {
+    color: #7c3aed;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.btn-primary {
+    background-color: #7c3aed;
+    border-color: #7c3aed;
+}
+
+.btn-primary:hover {
+    background-color: #5b21b6;
+    border-color: #5b21b6;
+}
+
+
+.promocao {
+    background-color: #ede9fe;
+    color: #4c1d95;
+}
+
+
+.formulario {
+    max-width: 500px;
+}
+
+
+@media (max-width: 576px) {
+    .banner {
+        padding: 60px 15px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner p {
+        font-size: 17px;
+    }
+}

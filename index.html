@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adventure Game | Pelúcias Geek</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio">Adventure Game
+                <img src="./icon-toad-roxo.png" alt="toad-roxo" class="logo"></a>
+
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promocao">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section id="inicio" class="banner text-center">
+        <div class="container">
+            <h1>Seu universo geek mais fofinho!</h1>
+            <p>
+                Encontre pelúcias inspiradas nos seus
+                animes e jogos favoritos.
+            </p>
+            <a href="#produtos" class="btn btn-warning btn-lg">Ver produtos</a>
+        </div>
+    </section>
+
+
+    <section id="produtos" class="container my-5">
+        <h2 class="text-center">Nossas pelúcias</h2>
+
+        <div class="row g-4">
+
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./harry-pelucias(1).jpg"
+                         class="card-img-top" alt="Coleção de pelúcias de Harry Potter">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pelúcias Harry Potter</h5>
+                        <p class="card-text">
+                            Leve a magia de Hogwarts para sua casa.</p>
+                        <p class="preco">R$ 59,90</p>
+                        <a href="#contato" class="btn btn-primary">
+                            Tenho interesse
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./pelucia-toad.jpg"
+                         class="card-img-top" alt="Pelúcia do Toad de Super Mario">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pelúcia Toad</h5>
+                        <p class="card-text">
+                            Um companheiro fofo para suas aventuras no Reino Cogumelo.
+                        </p>
+                        <p class="preco">R$ 69,90</p>
+                        <a href="#contato" class="btn btn-primary">
+                            Tenho interesse
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./snorlax-pelucia.jpg"
+                         class="card-img-top" alt="Pelúcia do Snorlax de Pokémon">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pelúcia Snorlax</h5>
+                        <p class="card-text">
+                            Perfeita para descansar depois de uma longa jogatina.
+                        </p>
+                        <p class="preco">R$ 79,90</p>
+                        <a href="#contato" class="btn btn-primary">
+                            Tenho interesse
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./pelucias-minecraft.jpg"
+                         class="card-img-top" alt="Coleção de pelúcias de Minecraft">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pelúcias Minecraft</h5>
+                        <p class="card-text">
+                            Traga os personagens do mundo de blocos para sua coleção.
+                        </p>
+                        <p class="preco">R$ 74,90</p>
+                        <a href="#contato" class="btn btn-primary">
+                            Tenho interesse
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="promocao" class="promocao text-center py-5">
+        <div class="container">
+            <h2>Oferta especial! </h2>
+            <p>Na compra de duas pelúcias, ganhe 10% de desconto.</p>
+            <a href="#produtos" class="btn btn-dark">
+                Aproveitar oferta
+            </a>
+        </div>
+    </section>
+
+
+    <section id="contato" class="container my-5">
+        <h2 class="text-center mb-4">Receba nossas novidades</h2>
+        <form class="mx-auto formulario">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Seu nome</label>
+                <input type="text" class="form-control" id="nome"
+                       placeholder="Digite seu nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Seu e-mail</label>
+                <input type="email" class="form-control" id="email"
+                       placeholder="Digite seu e-mail" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+                Quero receber novidades
+            </button>
+        </form>
+    </section>
+
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-1">Adventure Game <img src="./icon-toad-roxo.png" alt="toad-roxo" class="logo"> — Sua coleção começa aqui!</p>
+        <p class="mb-0">&copy; 2026 Adventure Game.</p>
+    </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
